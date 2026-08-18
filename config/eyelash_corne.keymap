@@ -84,7 +84,7 @@
                                 &trans      &trans      &trans                                      &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&rsr_vol &rsr_trans>;
         };
 
         symbol_layer {
@@ -96,7 +96,7 @@
                               &trans        &trans        &trans                                    &trans     &trans     &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&rsr_vol &rsr_trans>;
         };
 
         mouse_layer {
@@ -108,7 +108,7 @@
                         &trans  &trans  &trans                                 &mkp LCLK       &mkp RCLK       &mkp MCLK
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&rsr_vol &rsr_trans>;
         };
 
         fn_layer {
@@ -120,7 +120,7 @@
                                    &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2                                              &bt BT_SEL 3  &bt BT_CLR_ALL  &out OUT_USB
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&rsr_vol &rsr_trans>;
         };
     };
 };
