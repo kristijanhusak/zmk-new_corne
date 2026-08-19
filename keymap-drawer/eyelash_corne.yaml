@@ -254,3 +254,9 @@ combos:
 - p: [24, 25]
   k: END
   l: [NAV]
+- p: [36, 37]
+  k: PG DN
+  l: [NAV]
+- p: [38, 39]
+  k: PG UP
+  l: [NAV]
