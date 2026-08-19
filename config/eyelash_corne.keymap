@@ -36,6 +36,10 @@
         MAKE_HRM(hml, &kp, &kp, KEYS_R)
         MAKE_HRM(hmr, &kp, &kp, KEYS_L)
 
+        lt {
+            quick-tap-ms = <175>;
+        };
+
         rsr_vol: rsr_vol {
             compatible = "zmk,behavior-runtime-sensor-rotate";
             #sensor-binding-cells = <0>;
