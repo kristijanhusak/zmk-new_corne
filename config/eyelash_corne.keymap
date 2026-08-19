@@ -62,6 +62,18 @@
             bindings = <&soft_off>;
             key-positions = <1 15 29>;
         };
+
+        nav_home {
+            bindings = <&kp HOME>;
+            key-positions = <22 23>;
+            layers = <1>;
+        };
+
+        nav_end {
+            bindings = <&kp END>;
+            key-positions = <24 25>;
+            layers = <1>;
+        };
     };
 
     keymap {
