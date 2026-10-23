@@ -45,7 +45,7 @@ layers:
   - FN
   - {t: '[', h: SYMBOL, s: '{'}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
   - {t: '$$mdi:backspace$$', h: NAV}
   - {t: '&td_rbkt', h: '$$mdi:apple-keyboard-option$$'}
@@ -259,12 +259,6 @@ combos:
   l: [QWERTY]
 - p: [15, 16]
   k: {t: '-', s: _}
-  l: [QWERTY]
-- p: [24, 25]
-  k: {t: '''', s: '"'}
-  l: [QWERTY]
-- p: [16, 17]
-  k: $$mdi:keyboard-esc$$
   l: [QWERTY]
 - p: [36, 37]
   k: PG DN
